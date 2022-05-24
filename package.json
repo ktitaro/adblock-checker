@@ -1,0 +1,13 @@
+{
+  "name": "adblock-checker",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "setup": "node ./src/setup.js"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "node-fetch": "^3.2.4",
+    "playwright": "^1.22.2"
+  }
+}
